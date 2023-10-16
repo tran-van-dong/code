@@ -55,13 +55,8 @@ public class Merge {
 
 	public static void main(String args[]) {
 		int array[] = { 1, 4, 5, 2, 6, 2, 9, 2, 4 };
-
-		System.out.println("Mảng ban đầu:");
-		printArray(array);
-
 		sort(array, 0, array.length - 1);
-		System.out.println("Mảng sau khi sắp xếp:");
 		printArray(array);
-
 	}
 }
+
